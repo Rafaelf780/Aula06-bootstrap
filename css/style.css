@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+
+}
+.carousel-item {
+
+    max-height: 33vh;
+    overflow-y: hidden;
+}
+.carousel-indicators li{
+
+    width: 15px;
+    height:15px;
+    border-radius: 50%;
+    background-color: red;
+}
